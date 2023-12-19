@@ -1,0 +1,5 @@
+C:/Users/golov/source/repos/Lab_3/Lab-3/build/CMakeFiles/Lab-3.dir
+C:/Users/golov/source/repos/Lab_3/Lab-3/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/golov/source/repos/Lab_3/Lab-3/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/golov/source/repos/Lab_3/Lab-3/build/gtest/CMakeFiles/gtest.dir
+C:/Users/golov/source/repos/Lab_3/Lab-3/build/test/CMakeFiles/Lab-3_test.dir

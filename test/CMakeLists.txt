@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 2.8)
+
+set(name ${PROJECT_NAME}_test)
+
+file(GLOB CPP "*.CPP")
+
+
+add_executable(${name} ${CPP})
+target_link_libraries(${name} ${lib} gtest)	

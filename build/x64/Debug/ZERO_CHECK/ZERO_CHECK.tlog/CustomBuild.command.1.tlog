@@ -1,0 +1,10 @@
+^C:\USERS\GOLOV\SOURCE\REPOS\LAB_3\LAB-3\BUILD\CMAKEFILES\5681BBA2E82F6DE84DC6CD3FA322D2B2\GENERATE.STAMP.RULE
+setlocal
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/Lab_3/Lab-3 -BC:/Users/golov/source/repos/Lab_3/Lab-3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/golov/source/repos/Lab_3/Lab-3/build/Lab-3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
